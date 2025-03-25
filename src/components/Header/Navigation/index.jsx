@@ -1,6 +1,6 @@
 import Button from "@mui/material/Button";
 import React, { useState } from "react";
-import { ImMenu } from "react-icons/im";
+import { HiMenuAlt1 } from "react-icons/hi";
 import { TbTruckDelivery } from "react-icons/tb";
 import { VscTriangleDown } from "react-icons/vsc";
 import { Link } from "react-router-dom";
@@ -10,9 +10,9 @@ const Navigation = () => {
   const [isOpenCatPanel, setIsOpenCatPanel] = useState(false);
 
   const openCategoryPanel = () => {
-    alert();
     setIsOpenCatPanel(true);
   };
+
   return (
     <>
       <nav className="py-2">
@@ -22,7 +22,7 @@ const Navigation = () => {
               className="!text-[#556f8d] gap-1 !bg-[#e5e5e5] shadow-[5px_4px_2px_#556f8d] w-full"
               onClick={openCategoryPanel}
             >
-              <ImMenu className="text-[18px]" />
+              <HiMenuAlt1 className="text-[18px]" />
               COMPRAR POR CATEGORÍAS
               <VscTriangleDown className="text-[13px] ml-auto font-bold" />
             </Button>
@@ -131,8 +131,8 @@ const Navigation = () => {
       </nav>
       {/*category panel component*/}
       <CategoryPanel
-        openCategoryPanel={openCategoryPanel}
         isOpenCatPanel={isOpenCatPanel}
+        setIsOpenCatPanel={setIsOpenCatPanel}
       />
     </>
   );

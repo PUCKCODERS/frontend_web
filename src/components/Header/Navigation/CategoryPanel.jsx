@@ -1,47 +1,41 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
-import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
+import { FaWindowClose } from "react-icons/fa";
+import { Button } from "@mui/material";
+import { TbCopyPlusFilled } from "react-icons/tb";
 
 const CategoryPanel = (props) => {
+  const toggleDrawer = (newOpen) => () => {
+    props.setIsOpenCatPanel(newOpen);
+  };
+
   const DrawerList = (
-    <Box
-      sx={{ width: 250 }}
-      role="presentation"
-      onClick={props.openCategoryPanel(false)}
-    >
-      <List>
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {["All mail", "Trash", "Spam"].map((text) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
+    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
+      <h3 className="p-3 text-[13px] font-[500] flex items-center justify-between">
+        COMPRAR POR CATEGORÍAS
+        <FaWindowClose
+          onClick={toggleDrawer(false)}
+          className="cursor-pointer text-[15px]"
+        />
+      </h3>
+
+      <div className="scroll">
+        <ul className="w-full">
+          <li className="list-none flex items-center relative">
+            <Button className="w-full !text-left !justify-start !px-3 !text-[#556f8d]">
+              MAQUINAS
+            </Button>
+            <TbCopyPlusFilled className="absolute top-[10px] right-[15px]" />
+          </li>
+        </ul>
+      </div>
     </Box>
   );
 
   return (
     <>
-      <Drawer
-        open={props.isOpenCatPanel}
-        onClose={props.openCategoryPanel(false)}
-      >
+      <Drawer open={props.isOpenCatPanel} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>
     </>
