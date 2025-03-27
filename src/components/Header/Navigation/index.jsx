@@ -6,6 +6,8 @@ import { VscTriangleDown } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import CategoryPanel from "./CategoryPanel";
 
+import "../Navigation/style.css";
+
 const Navigation = () => {
   const [isOpenCatPanel, setIsOpenCatPanel] = useState(false);
 
