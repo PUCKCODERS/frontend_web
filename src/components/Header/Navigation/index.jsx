@@ -30,7 +30,7 @@ const Navigation = () => {
             </Button>
           </div>
           <div className="col_2 w-[65%]">
-            <ul className="flex items-center gap-1">
+            <ul className="flex items-center gap-1 nav">
               <li className="list-none">
                 <Link
                   to="/"
@@ -41,7 +41,7 @@ const Navigation = () => {
                   </Button>
                 </Link>
               </li>
-              <li className="list-none">
+              <li className="list-none relative">
                 <Link
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
@@ -50,6 +50,100 @@ const Navigation = () => {
                     MAQUINAS
                   </Button>
                 </Link>
+
+                <div className="submenu absolute !top-[130%] left-[0%] min-w-[150px] bg-[#ebebeb] shadow-[5px_4px_2px_#556f8d] opacity-0 transition-all border-[1px] border-[#556f8d] rounded-[5px] z-10">
+                  <ul>
+                    <li className="list-none w-full relative">
+                      <Link to="/" className="w-full">
+                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                          SINGER
+                        </Button>
+
+                        <div className="submenu absolute top-[0%] left-[100%] min-w-[150px] bg-[#ebebeb] shadow-[5px_4px_2px_#556f8d] opacity-0 transition-all border-[1px] border-[#556f8d] rounded-[5px] z-10">
+                          <ul>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                  SINGER
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none">
+                              <Link to="/" className="w-full">
+                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                  OVERLOCK
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none">
+                              <Link to="/" className="w-full">
+                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                  SINGER
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none">
+                              <Link to="/" className="w-full">
+                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                  OVERLOCK
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none">
+                              <Link to="/" className="w-full">
+                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                  SINGER
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none">
+                              <Link to="/" className="w-full">
+                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                  OVERLOCK
+                                </Button>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </Link>
+                    </li>
+                    <li className="list-none">
+                      <Link to="/" className="w-full">
+                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                          OVERLOCK
+                        </Button>
+                      </Link>
+                    </li>
+                    <li className="list-none">
+                      <Link to="/" className="w-full">
+                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                          SINGER
+                        </Button>
+                      </Link>
+                    </li>
+                    <li className="list-none">
+                      <Link to="/" className="w-full">
+                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                          OVERLOCK
+                        </Button>
+                      </Link>
+                    </li>
+                    <li className="list-none">
+                      <Link to="/" className="w-full">
+                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                          SINGER
+                        </Button>
+                      </Link>
+                    </li>
+                    <li className="list-none">
+                      <Link to="/" className="w-full">
+                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                          OVERLOCK
+                        </Button>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className="list-none">
                 <Link

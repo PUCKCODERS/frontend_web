@@ -45,7 +45,7 @@ const CategoryPanel = (props) => {
 
       <div className="scroll">
         <ul className="w-full">
-          <li className="list-none flex items-center relative">
+          <li className="list-none flex items-center relative flex-col">
             <Link to="/" className="w-full">
               <Button className="w-full !text-left !justify-start !px-3 !text-[#556f8d]">
                 MAQUINAS
@@ -65,7 +65,7 @@ const CategoryPanel = (props) => {
             )}
 
             {submenuIndex === 0 && (
-              <ul className="inner_submenu absolute top-[100%] left-[0%] w-full bg-[#f5f5f5] pl-3 ">
+              <ul className="inner_submenu w-full bg-[#f5f5f5] pl-3 ">
                 <li className="list-none relative">
                   <Link to="/" className="w-full">
                     <Button className="w-full !text-left !justify-start !px-3 !text-[#556f8d]">
@@ -86,7 +86,92 @@ const CategoryPanel = (props) => {
                   )}
 
                   {innerSubmenuIndex === 0 && (
-                    <ul className="submenu absolute top-[100%] left-[0%] w-full pl-3 ">
+                    <ul className="submenu w-full pl-3 ">
+                      <li className="list-none relative mb-1">
+                        <Link
+                          to="/"
+                          className="w-full !text-left !justify-start !px-3 transition  text-[14px] !bg-[#a09f9f] !text-[white] hover:!text-[#3c536d] shadow-[4px_3px_2px_#3c536d] rounded-[5px]"
+                        >
+                          Overlock Industrial
+                        </Link>
+                        <GiSewingMachine className="absolute top-[5px] right-[30px] text-[20px]" />
+                      </li>
+                      <li className="list-none relative mb-1">
+                        <Link
+                          to="/"
+                          className="w-full !text-left !justify-start !px-3 transition  text-[14px] !bg-[#a09f9f] !text-[white] hover:!text-[#3c536d] shadow-[4px_3px_2px_#3c536d] rounded-[5px]"
+                        >
+                          MAQUINAS
+                        </Link>
+                        <GiSewingString className="absolute top-[5px] right-[30px] text-[20px]" />
+                      </li>
+                      <li className="list-none relative mb-1">
+                        <Link
+                          to="/"
+                          className="w-full !text-left !justify-start !px-3 transition  text-[14px] !bg-[#a09f9f] !text-[white] hover:!text-[#3c536d] shadow-[4px_3px_2px_#3c536d] rounded-[5px]"
+                        >
+                          MAQUINAS
+                        </Link>
+                        <GiSewingMachine className="absolute top-[5px] right-[30px] text-[20px]" />
+                      </li>
+                      <li className="list-none relative mb-1">
+                        <Link
+                          to="/"
+                          className="w-full !text-left !justify-start !px-3 transition  text-[14px] !bg-[#a09f9f] !text-[white] hover:!text-[#3c536d] shadow-[4px_3px_2px_#3c536d] rounded-[5px]"
+                        >
+                          MAQUINAS
+                        </Link>
+                        <GiSewingString className="absolute top-[5px] right-[30px] text-[20px]" />
+                      </li>
+                    </ul>
+                  )}
+                </li>
+              </ul>
+            )}
+          </li>
+
+          <li className="list-none flex items-center relative flex-col">
+            <Link to="/" className="w-full">
+              <Button className="w-full !text-left !justify-start !px-3 !text-[#556f8d]">
+                MAQUINAS
+              </Button>
+            </Link>
+
+            {submenuIndex === 0 ? (
+              <TbCopyMinusFilled
+                className="absolute top-[10px] right-[15px] cursor-pointer"
+                onClick={() => openSubmenu(1)}
+              />
+            ) : (
+              <TbCopyPlusFilled
+                className="absolute top-[10px] right-[15px] cursor-pointer"
+                onClick={() => openSubmenu(1)}
+              />
+            )}
+
+            {submenuIndex === 1 && (
+              <ul className="inner_submenu w-full bg-[#f5f5f5] pl-3 ">
+                <li className="list-none relative">
+                  <Link to="/" className="w-full">
+                    <Button className="w-full !text-left !justify-start !px-3 !text-[#556f8d]">
+                      MAQUINAS
+                    </Button>
+                  </Link>
+
+                  {innerSubmenuIndex === 1 ? (
+                    <TbCopyMinusFilled
+                      className="absolute top-[10px] right-[15px] cursor-pointer"
+                      onClick={() => openInnerSubmenu(1)}
+                    />
+                  ) : (
+                    <TbCopyPlusFilled
+                      className="absolute top-[10px] right-[15px] cursor-pointer"
+                      onClick={() => openInnerSubmenu(1)}
+                    />
+                  )}
+
+                  {innerSubmenuIndex === 1 && (
+                    <ul className="submenu w-full pl-3 ">
                       <li className="list-none relative mb-1">
                         <Link
                           to="/"
