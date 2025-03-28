@@ -2,20 +2,24 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 
 const HomeSlider = () => {
   return (
     <div className="homeSlider py-4">
       <div className="container">
         <Swiper
-          spaceBetween={30}
+          spaceBetween={20}
           navigation={true}
-          modules={[Navigation]}
+          modules={[Navigation, Autoplay]}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           className="sliderHome"
         >
           <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[18px_16px_12px_#556f8d] ">
+            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d] ">
               <img
                 src="/src/images/slider/slider1.png"
                 alt="Banner slide"
@@ -24,7 +28,7 @@ const HomeSlider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[18px_16px_12px_#556f8d]">
+            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d]">
               <img
                 src="/src/images/logo.jpg"
                 alt="Banner slide"
@@ -33,7 +37,7 @@ const HomeSlider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[18px_16px_12px_#556f8d]">
+            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d]">
               <img
                 src="/src/images/slider/slider1.png"
                 alt="Banner slide"
@@ -42,7 +46,7 @@ const HomeSlider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[18px_16px_12px_#556f8d]">
+            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d]">
               <img
                 src="/src/images/logo.jpg"
                 alt="Banner slide"
@@ -51,7 +55,7 @@ const HomeSlider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[18px_16px_12px_#556f8d]">
+            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d]">
               <img
                 src="/src/images/slider/slider1.png"
                 alt="Banner slide"
@@ -60,7 +64,7 @@ const HomeSlider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[18px_16px_12px_#556f8d]">
+            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d]">
               <img
                 src="/src/images/logo.jpg"
                 alt="Banner slide"

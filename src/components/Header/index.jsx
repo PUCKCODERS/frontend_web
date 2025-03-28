@@ -56,7 +56,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="header py-4 border-b-[1px] border-gray-300">
+      <div className="header py-4 border-b-[1px] border-gray-300 bg-[#fff]">
         <div className="container flex items-center justify-between">
           <div className="col1 w-[25%]">
             <Link to={"/"}>
