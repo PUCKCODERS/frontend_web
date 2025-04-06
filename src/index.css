@@ -8,8 +8,6 @@ html {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  overflow-x: hidden;
 }
 
 body {
@@ -17,7 +15,6 @@ body {
   font-optical-sizing: auto;
   background: #e5e5e5;
   color: rgba(0, 0, 0, 0.7);
-  overflow: hidden;
 }
 
 ::-webkit-scrollbar {
