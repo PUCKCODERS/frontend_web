@@ -17,9 +17,9 @@ const Navigation = () => {
 
   return (
     <>
-      <nav className="py-2">
+      <nav>
         <div className="container flex items-center justify-end gap-8 ">
-          <div className="col_1 w-[25%]">
+          <div className="col_1 w-[30%]">
             <Button
               className="!text-[#556f8d] gap-1 !bg-[#e5e5e5] shadow-[5px_4px_2px_#556f8d] w-full"
               onClick={openCategoryPanel}
@@ -36,7 +36,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[500] !bg-[#b8b8b8] !text-[white] hover:!text-[#556f8d]">
+                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4 ">
                     INICIO
                   </Button>
                 </Link>
@@ -46,7 +46,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[500] !bg-[#b8b8b8] !text-[white] hover:!text-[#556f8d]">
+                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] ">
                     MAQUINAS
                   </Button>
                 </Link>
@@ -150,7 +150,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[500] !bg-[#b8b8b8] !text-[white] hover:!text-[#556f8d]">
+                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     CORTE
                   </Button>
                 </Link>
@@ -160,7 +160,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[500] !bg-[#b8b8b8] !text-[white] hover:!text-[#556f8d]">
+                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     PLANCHADO
                   </Button>
                 </Link>
@@ -170,7 +170,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[500] !bg-[#b8b8b8] !text-[white] hover:!text-[#556f8d]">
+                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     ACCESORIOS
                   </Button>
                 </Link>
@@ -180,7 +180,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[500] !bg-[#b8b8b8] !text-[white] hover:!text-[#556f8d]">
+                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     REPUESTOS
                   </Button>
                 </Link>
@@ -190,7 +190,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[500] !bg-[#b8b8b8] !text-[white] hover:!text-[#556f8d]">
+                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     NOSOTROS
                   </Button>
                 </Link>
@@ -200,7 +200,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[500] !bg-[#b8b8b8] !text-[white] hover:!text-[#556f8d]">
+                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     CONTACTO
                   </Button>
                 </Link>
@@ -210,7 +210,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[500] !bg-[#b8b8b8] !text-[white] hover:!text-[#556f8d]">
+                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     OFERTAS
                   </Button>
                 </Link>

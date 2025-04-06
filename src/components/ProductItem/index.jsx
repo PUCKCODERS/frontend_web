@@ -14,18 +14,13 @@ const ProductItem = () => {
         <Link to="/">
           <div className="img h-[200px] overflow-hidden">
             <img
-              src="https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/487313297_4163892343898410_8483451465957424973_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ZVwNjnmxeAQQ7kNvwERUBNY&_nc_oc=AdlGVrYk-Oa5k_c9M72I6asS9xyuiCukCNWOEZY-QQ7ZpMbxUR3NRXPRDM77NFv81nw&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=BJXewWJttIXCbVd2DUfPCw&oh=00_AfGMszGvDGtuq44o5hT9O6zFe3aWH4YtaffUnNQcxz8amA&oe=67F7F8EA"
-              className=" w-full"
+              src="https://maquinasecuador.com/wp-content/uploads/2023/11/Recubridora-1-1024x1024.jpg"
+              className="w-full"
             />
 
             <img
-              src="https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/487769993_4164970857123892_2742528583091687138_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=0_OW6dMCqs4Q7kNvwFkaVI2&_nc_oc=AdlYfPXXX8Sjl0QZ6DikgK2W_0WunjUR19HcBm85tpbLklVuRDk3Fqysezw25Pk-NrI&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=yrW--Gp5F6HjRRr62WPSMg&oh=00_AfFhiHpqA2NJ8i2SzCXMFEkotAiI-2u6QyeA0P88Q5yl2Q&oe=67F7D415"
-              className=" w-full"
-            />
-
-            <img
-              src="https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/487392436_4163905387230439_619907725970957130_n.png?_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=cqyzFiZaX_sQ7kNvwFhNZkr&_nc_oc=AdmiRHtb49Nfd_CcxldwCHvzYkOr2gqXPTaVqfy0vqJa0_KAfdo_S23KDjyGvHY0I1Q&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=rAjK0BzDm7z6kLbjTIqokQ&oh=00_AfFIRtNZACyow4xnVLzjqgRtQDkjtPFHL7eQcxVJo94Nzw&oe=67F7D7A7"
-              className=" w-full"
+              src="https://maquinasecuador.com/wp-content/uploads/2023/11/Recubridora-600x600.jpg"
+              className="w-full transition-all duration-700 absolute top-0 left-0 opacity-0 group-hover:opacity-100 group-hover:scale-105"
             />
           </div>
         </Link>
