@@ -18,7 +18,7 @@ const HomeCatSlider = () => {
         >
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
                   src="https://polipapel.vteximg.com.br/arquivos/ids/174453-1000-1000/O76237.png?v=638191796905070000"
                   className="w-[60px] transition-all"
@@ -31,7 +31,7 @@ const HomeCatSlider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
                   src="https://sivencasinger.com.ve/wp-content/uploads/sin-titulo-2.png"
                   className="w-[60px] transition-all"
@@ -44,7 +44,7 @@ const HomeCatSlider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
                   src="https://singermultimaquinas.com/wp-content/uploads/2024/02/1-300x300.png"
                   className="w-[60px] transition-all"
@@ -57,7 +57,7 @@ const HomeCatSlider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
                   src="https://polipapel.vteximg.com.br/arquivos/ids/174453-1000-1000/O76237.png?v=638191796905070000"
                   className="w-[60px] transition-all"
@@ -70,7 +70,7 @@ const HomeCatSlider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
                   src="https://sivencasinger.com.ve/wp-content/uploads/sin-titulo-2.png"
                   className="w-[60px] transition-all"
@@ -83,7 +83,7 @@ const HomeCatSlider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
                   src="https://singermultimaquinas.com/wp-content/uploads/2024/02/1-300x300.png"
                   className="w-[60px] transition-all"
@@ -96,7 +96,7 @@ const HomeCatSlider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
                   src="https://polipapel.vteximg.com.br/arquivos/ids/174453-1000-1000/O76237.png?v=638191796905070000"
                   className="w-[60px] transition-all"
@@ -109,7 +109,7 @@ const HomeCatSlider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
                   src="https://sivencasinger.com.ve/wp-content/uploads/sin-titulo-2.png"
                   className="w-[60px] transition-all"

@@ -60,7 +60,7 @@ const Home = () => {
           <ProductsSlider items={6} />
         </div>
       </section>
-      <section className="py-12 bg-white">
+      <section className="py-14 bg-white">
         <div className="container">
           <div className="freeShipping w-[80%] m-auto py-4 p-4 border-3 border-[#556f8d] flex items-center justify-between rounded-md mb-7">
             <div className="col1 flex items-center gap-4">
