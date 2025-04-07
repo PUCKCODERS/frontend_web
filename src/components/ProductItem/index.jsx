@@ -9,7 +9,7 @@ import { MdOutlineZoomOutMap } from "react-icons/md";
 
 const ProductItem = () => {
   return (
-    <div className="productItem shadow-[8px_7px_12px_#b8b8b8] rounded-md  overflow-hidden !border-1 !border-[#b1cdee] mb-4">
+    <div className="productItem rounded-md  overflow-hidden !border-1 !border-[#b1cdee] mb-4">
       <div className=" group imgWrapper w-[100%]  overflow-hidden rounded-md relative">
         <Link to="/">
           <div className="img h-[200px] overflow-hidden">
