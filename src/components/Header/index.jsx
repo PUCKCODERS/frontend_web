@@ -60,7 +60,7 @@ const Header = () => {
         <div className="container flex items-center justify-between">
           <div className="col1 w-[25%]">
             <Link to={"/"}>
-              <img src="/src/images/logo1.jpg" />
+              <img src="https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/489456226_4174754722812172_2853351155346051607_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=f727a1&_nc_ohc=ezdiPH1X4icQ7kNvwHHywtc&_nc_oc=AdkvPTs-wlq8tPd7LdXf_gT924b7WRDGmlc8ryXH-z79M4RpBFdYH9IEjJcdM3pMet4&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=mwFBxuoGNjhI21fzyYX6uw&oh=00_AfG_ZbKK3wxHFJhXMaN_lZdp0jTFj7PJ-93nF164bcrC4A&oe=67FAE525" />
             </Link>
           </div>
           <div className="col2 w-[45%]">
