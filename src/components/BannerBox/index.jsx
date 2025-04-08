@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const BannerBox = (props) => {
   return (
-    <div className="box BannerBox overflow-hidden rounded-lg group  !border-1 !border-[#556f8d] mb-5">
+    <div className="box BannerBox overflow-hidden rounded-lg group   mb-5">
       <Link to="/">
         <img
           src={props.img}

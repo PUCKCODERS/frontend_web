@@ -68,7 +68,7 @@ const Home = () => {
       </section>
       <section className="py-4 pt-0 bg-white">
         <div className="container">
-          <div className="freeShipping w-[80%] m-auto py-4 p-4 border-3 border-[#556f8d] flex items-center justify-between rounded-md mb-7">
+          <div className="freeShipping w-[90%] m-auto py-4 p-4 border-3 border-[#556f8d] flex items-center justify-between rounded-md mb-7">
             <div className="col1 flex items-center gap-4">
               <FaShippingFast className="text-[50px]" />
               <span className="text-[30px] font-[600]">ENVIO GRATIS</span>
@@ -134,7 +134,6 @@ const Home = () => {
         </div>
       </section>
       <Footer />
-      <br /> <br /> <br /> <br /> <br /> <br />
     </>
   );
 };
