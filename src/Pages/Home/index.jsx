@@ -14,6 +14,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import BlogItem from "../../components/BlogItem";
+import HomeBannerV2 from "../../components/HomeSliderV2";
+import BannerBoxV2 from "../../components/bannerBoxV2";
 
 const Home = () => {
   const [value, setValue] = React.useState(0);
@@ -24,7 +26,19 @@ const Home = () => {
 
   return (
     <>
-      <HomeSlider />
+      {/*<HomeSlider />*/}
+      {/* Este es el primer slider y por el momento lo vamos a comentar para anularlo */}
+      <section className="py-6">
+        <div className="container flex gap-5">
+          <div className="part1 w-[65%] shadow-[7px_9px_5px_#556f8d]">
+            <HomeBannerV2 />
+          </div>
+          <div className="part2 w-[35%] flex items-center gap-5 justify-between flex-col">
+            <BannerBoxV2 />
+            <BannerBoxV2 />
+          </div>
+        </div>
+      </section>
       <HomeCatSlider />
       <section className="bg-white py-8 ">
         <div className="container ">

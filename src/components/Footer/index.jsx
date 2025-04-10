@@ -188,7 +188,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="part1 w-[35%] flex pl-8 flex-col pr-8">
+            <div className="part1 w-[35%] flex pl-8 flex-col pr-9">
               <h2 className="text-[18px] font-[bold] text-[#38597e] mb-4">
                 SUSCRIBETE
               </h2>

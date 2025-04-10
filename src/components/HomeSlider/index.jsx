@@ -9,7 +9,8 @@ const HomeSlider = () => {
     <div className="homeSlider py-4">
       <div className="container">
         <Swiper
-          spaceBetween={20}
+          loop={true}
+          spaceBetween={15}
           navigation={true}
           modules={[Navigation, Autoplay]}
           autoplay={{
