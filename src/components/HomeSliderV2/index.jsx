@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Button from "@mui/material/Button";
 
-import { EffectFade, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 
 const HomeBannerV2 = () => {
   return (
@@ -19,7 +19,11 @@ const HomeBannerV2 = () => {
       pagination={{
         clickable: true,
       }}
-      modules={[EffectFade, Navigation, Pagination]}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      modules={[EffectFade, Navigation, Pagination, Autoplay]}
       className="homeSliderV2"
     >
       <SwiperSlide>
