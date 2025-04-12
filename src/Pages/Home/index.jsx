@@ -29,20 +29,20 @@ const Home = () => {
       <HomeSlider />
       <section className="py-6">
         <div className="container flex gap-5">
-          <div className="part1 w-[65%] shadow-[7px_9px_5px_#556f8d]">
+          <div className="part1 w-[70%] shadow-[7px_9px_5px_#556f8d]">
             <HomeBannerV2 />
           </div>
-          <div className="part2 w-[35%] flex items-center gap-5 justify-between flex-col">
+          <div className="part2 w-[30%] flex items-center gap-5 justify-between flex-col">
             <BannerBoxV2
               info="left"
               image={
-                "https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/490415701_122106920300827692_5125056260276947765_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=f727a1&_nc_ohc=DQRYGZNCYfUQ7kNvwGLjdDE&_nc_oc=AdnIAlnWqizBXkOn0Q9ghEbn6OLN3Buv9eyfPx0ktWU-OjAM88UApCYVnvn0LXAn35s&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=vW6l7DEHyaIUU9cszvKvgw&oh=00_AfHPsrCuyi_iLYL5nnJ5pSSjhA4KpGDlA-wpEG4-Ohlg3A&oe=67FF2847"
+                "https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/490914340_122107052882827692_4934114322789984951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=f727a1&_nc_ohc=rFL2MCpoA5kQ7kNvwGm3UF3&_nc_oc=AdnfHlZvHVETzbdulmw7WmzdquWhncEWzdMkZqb0ZAmumdU5UWsbjWXWfzupuhNPCSA&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=PAD2xicGI9tGIgc01u--Pg&oh=00_AfGQbaKCAK80ia9Px_L9j9PGjbF4fpzZjMjGM_7SMVrfIg&oe=67FF7F31"
               }
             />
             <BannerBoxV2
               info="right"
               image={
-                "https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/490177024_122106922382827692_8539361748793779084_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=f727a1&_nc_ohc=lZ28i9S72T8Q7kNvwHSTzsw&_nc_oc=AdmZSL1ktzFhBSPD0KXlJ7KzVJHuO9YM7DxSlXex54vq7lTAioh1jS3o-se2oiQOVYU&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=vSb0Bmad_ePTBvn7itu7MQ&oh=00_AfETtA2CXCMjsaMAfYuhqoYoI1xSJff7q6TzanZqaCvxjw&oe=67FF291C"
+                "https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/490914340_122107052882827692_4934114322789984951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=f727a1&_nc_ohc=rFL2MCpoA5kQ7kNvwGm3UF3&_nc_oc=AdnfHlZvHVETzbdulmw7WmzdquWhncEWzdMkZqb0ZAmumdU5UWsbjWXWfzupuhNPCSA&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=PAD2xicGI9tGIgc01u--Pg&oh=00_AfGQbaKCAK80ia9Px_L9j9PGjbF4fpzZjMjGM_7SMVrfIg&oe=67FF7F31"
               }
             />
           </div>
