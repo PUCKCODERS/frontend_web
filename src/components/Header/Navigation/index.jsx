@@ -36,7 +36,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4 ">
+                  <Button className="link transition !font-[bold] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4 ">
                     INICIO
                   </Button>
                 </Link>
@@ -46,7 +46,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] ">
+                  <Button className="link transition !font-[bold] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] ">
                     MAQUINAS
                   </Button>
                 </Link>
@@ -55,7 +55,7 @@ const Navigation = () => {
                   <ul>
                     <li className="list-none w-full relative">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                           SINGER
                         </Button>
 
@@ -63,42 +63,42 @@ const Navigation = () => {
                           <ul>
                             <li className="list-none w-full">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                                   SINGER
                                 </Button>
                               </Link>
                             </li>
                             <li className="list-none">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                                   OVERLOCK
                                 </Button>
                               </Link>
                             </li>
                             <li className="list-none">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                                   SINGER
                                 </Button>
                               </Link>
                             </li>
                             <li className="list-none">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                                   OVERLOCK
                                 </Button>
                               </Link>
                             </li>
                             <li className="list-none">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                                   SINGER
                                 </Button>
                               </Link>
                             </li>
                             <li className="list-none">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                                   OVERLOCK
                                 </Button>
                               </Link>
@@ -109,35 +109,35 @@ const Navigation = () => {
                     </li>
                     <li className="list-none">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                           OVERLOCK
                         </Button>
                       </Link>
                     </li>
                     <li className="list-none">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                           SINGER
                         </Button>
                       </Link>
                     </li>
                     <li className="list-none">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                           OVERLOCK
                         </Button>
                       </Link>
                     </li>
                     <li className="list-none">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                           SINGER
                         </Button>
                       </Link>
                     </li>
                     <li className="list-none">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
                           OVERLOCK
                         </Button>
                       </Link>
@@ -150,7 +150,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
+                  <Button className="link transition !font-[bold] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     CORTE
                   </Button>
                 </Link>
@@ -160,7 +160,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
+                  <Button className="link transition !font-[bold] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     PLANCHADO
                   </Button>
                 </Link>
@@ -170,7 +170,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
+                  <Button className="link transition !font-[bold] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     ACCESORIOS
                   </Button>
                 </Link>
@@ -180,7 +180,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
+                  <Button className="link transition !font-[bold] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     REPUESTOS
                   </Button>
                 </Link>
@@ -190,7 +190,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
+                  <Button className="link transition !font-[bold] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     NOSOTROS
                   </Button>
                 </Link>
@@ -200,7 +200,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
+                  <Button className="link transition !font-[bold] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     CONTACTO
                   </Button>
                 </Link>
@@ -210,7 +210,7 @@ const Navigation = () => {
                   to="/"
                   className="link transition text-[13px] font-[500] text-[#556f8d]"
                 >
-                  <Button className="link transition !font-[900] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
+                  <Button className="link transition !font-[bold] !bg-[#fff] !text-[#556f8d] hover:!text-[#556f8d] !py-4">
                     OFERTAS
                   </Button>
                 </Link>

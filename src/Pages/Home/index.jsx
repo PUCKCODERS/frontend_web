@@ -3,11 +3,11 @@ import HomeSlider from "../../components/HomeSlider";
 import HomeCatSlider from "../../components/HomeCatSlider";
 import { FaShippingFast } from "react-icons/fa";
 import AdsBannerSlider from "../../components/AdsBannerSlider";
+import AdsBannerSliderV2 from "../../components/AdsBannerSliderV2";
 
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import ProductsSlider from "../../components/ProductsSlider";
-import Footer from "../../components/Footer";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -29,10 +29,10 @@ const Home = () => {
       <HomeSlider />
       <section className="py-6">
         <div className="container flex gap-5">
-          <div className="part1 w-[70%] shadow-[7px_9px_5px_#556f8d]">
+          <div className="part1 w-[65%]">
             <HomeBannerV2 />
           </div>
-          <div className="part2 w-[30%] flex items-center gap-5 justify-between flex-col">
+          <div className="part2 w-[35%] flex items-center gap-5 justify-between flex-col">
             <BannerBoxV2
               info="left"
               image={
@@ -106,7 +106,7 @@ const Home = () => {
             <p className="font-bold text-[25px]">- SOLO $200*</p>
           </div>
 
-          <AdsBannerSlider items={4} />
+          <AdsBannerSliderV2 items={4} />
         </div>
       </section>
       <section className="py-5 bg-white ">
@@ -156,7 +156,6 @@ const Home = () => {
           </Swiper>
         </div>
       </section>
-      <Footer />
     </>
   );
 };
