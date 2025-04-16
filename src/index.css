@@ -49,6 +49,9 @@ body {
   transition: all 0.3s ease !important;
   text-transform: capitalize !important;
 }
+.btn-org:hover {
+  background: #274a72 !important;
+}
 
 .link:hover {
   color: #0a7fec;
@@ -209,4 +212,18 @@ footer form input::placeholder {
 
 .MuiCheckbox-root {
   padding: 6px !important;
+}
+
+.ReactCollapse--collapse {
+  transition: height 400ms;
+}
+
+.itemViewActions button.active svg {
+  color: #000 !important;
+  opacity: 1;
+}
+
+.Mui-selected.MuiPaginationItem-page {
+  background: #274a72 !important;
+  color: #fff !important;
 }

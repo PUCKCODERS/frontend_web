@@ -6,11 +6,12 @@ import Button from "@mui/material/Button";
 import { FaHeart } from "react-icons/fa";
 import { IoMdGitCompare } from "react-icons/io";
 import { MdOutlineZoomOutMap } from "react-icons/md";
+import { GiShoppingCart } from "react-icons/gi";
 
 const ProductItem = () => {
   return (
-    <div className="productItem shadow-lg rounded-md  overflow-hidden !border-1 !border-[#b1cdee] mb-4">
-      <div className=" group imgWrapper w-[100%]  overflow-hidden rounded-md relative">
+    <div className="productItem shadow-lg rounded-md  overflow-hidden !border-1 !border-[#b1cdee] flex items-center">
+      <div className=" group imgWrapper w-[25%]  overflow-hidden rounded-md relative">
         <Link to="/">
           <div className="img h-[220px] overflow-hidden">
             <img
@@ -43,17 +44,24 @@ const ProductItem = () => {
         </div>
       </div>
 
-      <div className="info p-3 py-5">
-        <h6 className="text-[13px] text-[#556f8d] font-[bold] font-bold">
+      <div className="info p-3 py-5 px-8 w-[75%]">
+        <h6 className="text-[15px] font-[500] text-[#556f8d]">
           <Link to="/" className="link transition-all">
             COLOR SILVER
           </Link>
         </h6>
-        <h3 className="text-[13px] title mt-1 font-[500] mb-1 text-[#556f8d]">
+        <h3 className="text-[18px] title mt-3 font-[bold] font-bold mb-1 text-[#556f8d]">
           <Link to="/" className="link transition-all">
             MAQUINA SINGER COLOR SILVER TAMAÑO SMALL
           </Link>
         </h3>
+
+        <p className="text-[14px] text-[#757575] font-[bold] mb-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+          officiis eius at cumque quas, facilis doloribus maxime ratione, optio
+          iusto sint sunt velit dolorum modi?
+        </p>
+
         <Rating name="size-small" defaultValue={4} size="small" readOnly />
 
         <div className="flex items-center gap-4">
@@ -63,6 +71,13 @@ const ProductItem = () => {
           <span className="price text-[#0a7fec] text-[17px] font-[600]">
             $69.00
           </span>
+        </div>
+
+        <div className="mt-3">
+          <Button className="btn-org flex gap-2">
+            AGREGAR
+            <GiShoppingCart className="text-[25px] scale-x-[-1]" />
+          </Button>
         </div>
       </div>
     </div>

@@ -188,7 +188,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="part1 w-[35%] flex pl-8 flex-col pr-9">
+            <div className="part1 w-[35%] flex pl-8 flex-col pr-10">
               <h2 className="text-[18px] font-[bold] text-[#38597e] mb-4">
                 SUSCRIBETE
               </h2>
@@ -200,7 +200,7 @@ const Footer = () => {
               <form className="mt-5">
                 <input
                   type="text"
-                  className="w-full h-[45px] border border-[#38597e] outline-none pl-4 pr-4 rounded-sm mb-4 focus:border-[#38597e]"
+                  className="w-full h-[45px] border border-[#38597e] outline-none pl-4 pr-4 rounded-sm mb-4  focus:border-[#38597e]"
                   placeholder="TU CORREO"
                   style={{ boxShadow: "4px 4px 7px #38597e" }}
                 />
@@ -209,6 +209,7 @@ const Footer = () => {
                 <FormControlLabel
                   control={<Checkbox />}
                   label="Acepta terminos y condiciones"
+                  className="mt-3"
                 />
               </form>
             </div>

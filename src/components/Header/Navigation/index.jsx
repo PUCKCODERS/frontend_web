@@ -55,7 +55,7 @@ const Navigation = () => {
                   <ul>
                     <li className="list-none w-full relative">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                           SINGER
                         </Button>
 
@@ -63,42 +63,42 @@ const Navigation = () => {
                           <ul>
                             <li className="list-none w-full">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                                   SINGER
                                 </Button>
                               </Link>
                             </li>
                             <li className="list-none">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                                   OVERLOCK
                                 </Button>
                               </Link>
                             </li>
                             <li className="list-none">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                                   SINGER
                                 </Button>
                               </Link>
                             </li>
                             <li className="list-none">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                                   OVERLOCK
                                 </Button>
                               </Link>
                             </li>
                             <li className="list-none">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                                   SINGER
                                 </Button>
                               </Link>
                             </li>
                             <li className="list-none">
                               <Link to="/" className="w-full">
-                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                                <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                                   OVERLOCK
                                 </Button>
                               </Link>
@@ -109,35 +109,35 @@ const Navigation = () => {
                     </li>
                     <li className="list-none">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                           OVERLOCK
                         </Button>
                       </Link>
                     </li>
                     <li className="list-none">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                           SINGER
                         </Button>
                       </Link>
                     </li>
                     <li className="list-none">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                           OVERLOCK
                         </Button>
                       </Link>
                     </li>
                     <li className="list-none">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                           SINGER
                         </Button>
                       </Link>
                     </li>
                     <li className="list-none">
                       <Link to="/" className="w-full">
-                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#b8b8b8] w-full !text-left !justify-start !rounded-none">
+                        <Button className="!text-[#556f8d] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none">
                           OVERLOCK
                         </Button>
                       </Link>
