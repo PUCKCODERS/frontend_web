@@ -16,8 +16,13 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   background: #e5e5e5;
-  color: rgba(0, 0, 0, 0.7);
+  color: #274a72;
   overflow: hidden;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
 }
 
 ::-webkit-scrollbar {
@@ -226,4 +231,36 @@ footer form input::placeholder {
 .Mui-selected.MuiPaginationItem-page {
   background: #274a72 !important;
   color: #fff !important;
+}
+
+.shadow-md,
+.shadow-lg {
+  box-shadow: 7px 7px 7px #274a72;
+}
+.zoomProductSliderThumbs .swiper-wrapper {
+  padding-top: 1px !important;
+}
+.zoomProductSliderThumbs .swiper-button-next {
+  bottom: 0px !important;
+  right: inherit !important;
+  top: inherit !important;
+  width: 100% !important;
+  height: 30px !important;
+  border-radius: 0px !important;
+  background-color: #7994b1;
+}
+
+.zoomProductSliderThumbs .swiper-button-next::after {
+  transform: rotate(90deg);
+}
+.zoomProductSliderThumbs .swiper-button-prev {
+  top: 22px !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 30px !important;
+  border-radius: 0px !important;
+  background-color: #7994b1;
+}
+.zoomProductSliderThumbs .swiper-button-prev::after {
+  transform: rotate(90deg);
 }

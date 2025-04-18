@@ -168,14 +168,6 @@ const ProductListing = () => {
                   <ProductItemListView />
                   <ProductItemListView />
                   <ProductItemListView />
-                  <ProductItemListView />
-                  <ProductItemListView />
-                  <ProductItemListView />
-                  <ProductItemListView />
-                  <ProductItemListView />
-                  <ProductItemListView />
-                  <ProductItemListView />
-                  <ProductItemListView />
                 </>
               )}
             </div>
