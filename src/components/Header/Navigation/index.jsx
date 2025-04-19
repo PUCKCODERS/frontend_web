@@ -218,7 +218,7 @@ const Navigation = () => {
             </ul>
           </div>
           <div className="col_3 w-[15%]">
-            <p className="text-[13px] font-[500] flex items-center gap-3 mb-0 mt-0">
+            <p className="!text-[13px] font-[500] flex items-center gap-3 mb-0 mt-0">
               <TbTruckDelivery className="text-[20px]" />
               ENVIO GRATIS
             </p>
