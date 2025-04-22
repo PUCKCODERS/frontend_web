@@ -264,3 +264,9 @@ footer form input::placeholder {
 .zoomProductSliderThumbs .swiper-button-prev::after {
   transform: rotate(90deg);
 }
+.productContent .actions button {
+  min-width: 40px !important;
+  height: 30px !important;
+  border: 1px solid #274a72 !important;
+  color: #274a72;
+}

@@ -27,7 +27,7 @@ const Footer = () => {
               <h3 className="text-[13px] font-[900] text-[#556f8d] mt-3">
                 ENVIO GRATIS
               </h3>
-              <p className="text-[10px] font-[500] text-[#6c8199]">
+              <p className="!text-[10px] font-[500] text-[#6c8199]">
                 COMPRAS SUPERIORES A $100
               </p>
             </div>
@@ -37,7 +37,7 @@ const Footer = () => {
               <h3 className="text-[13px] font-[900] text-[#556f8d] mt-3">
                 COMPRA EN LINEA
               </h3>
-              <p className="text-[10px] font-[500] text-[#6c8199]">
+              <p className="!text-[10px] font-[500] text-[#6c8199]">
                 RAPIDO, FACIL Y DESDE CUALQUIER LUGAR
               </p>
             </div>
@@ -47,7 +47,7 @@ const Footer = () => {
               <h3 className="text-[13px] font-[900] text-[#556f8d] mt-3">
                 COMPRA CON TARJETA
               </h3>
-              <p className="text-[9.5px] font-[500] text-[#6c8199]">
+              <p className="!text-[9.5px] font-[500] text-[#6c8199]">
                 ACEPTAMOS CUALQUIER TARJETA DE CREDITO
               </p>
             </div>
@@ -57,7 +57,7 @@ const Footer = () => {
               <h3 className="text-[13px] font-[900] text-[#556f8d] mt-3">
                 PAGO EFECTIVO Y TRANSFERECIA
               </h3>
-              <p className="text-[10px] font-[500] text-[#6c8199]">
+              <p className="!text-[10px] font-[500] text-[#6c8199]">
                 OPCIONES SEGURAS PARA TU COMODIDAD
               </p>
             </div>
@@ -67,7 +67,7 @@ const Footer = () => {
               <h3 className="text-[12px] font-[900] text-[#556f8d] mt-3">
                 GARANTIA Y DEVOLUCIONES
               </h3>
-              <p className="text-[10px] font-[500] text-[#6c8199]">
+              <p className="!text-[10px] font-[500] text-[#6c8199]">
                 PROTECCION TOTAL EN TUS COMPRAS
               </p>
             </div>
