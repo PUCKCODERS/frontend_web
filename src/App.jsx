@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./Pages/Home";
 import ProductListing from "./Pages/ProductListing";
-import ProductDetails from "./components/ProductDetails";
+import ProductDetails from "./Pages/ProductDetails";
 import { createContext } from "react";
 
 import Button from "@mui/material/Button";
@@ -13,23 +13,22 @@ import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import ProductZoom from "./components/ProductZoom";
 import { IoCloseSharp } from "react-icons/io5";
+import ProductDetailsComponent from "./components/ProductDetails";
 
 const MyContext = createContext();
 
 function App() {
-  const [openProductDetailsModal, setOpenProductDetailsModal] = useState(true);
+  const [openProductDetailsModal, setOpenProductDetailsModal] = useState(false);
   const [maxWidth, setMaxWidth] = React.useState("lg");
   const [fullWidth, setFullWidth] = React.useState(true);
-
-  const handleClickOpenProductDetailsModal = () => {
-    setOpenProductDetailsModal(true);
-  };
 
   const handleCloseProductDetailsModal = () => {
     setOpenProductDetailsModal(false);
   };
 
-  const values = {};
+  const values = {
+    setOpenProductDetailsModal,
+  };
 
   return (
     <>
@@ -65,13 +64,17 @@ function App() {
         <DialogContent>
           <div className="flex items-center w-full productDetailsModalContainer relative">
             <Button
-              className="!w-[40px] !h-[40px] !min-w-[40px] !rounded-full !text-[#fff] !absolute top-[0px] right-[0px] !bg-[#274a72] !shadow-[0px_0px_0px_3px_#7994b1]"
+              className="!w-[40px] !h-[40px] !min-w-[40px] !rounded-full !text-[#fff] !absolute top-[15px] right-[15px] !bg-[#274a72] !shadow-[0px_0px_0px_3px_#7994b1]"
               onClick={handleCloseProductDetailsModal}
             >
               <IoCloseSharp className="text-[25px]" />
             </Button>
-            <div className="col1 w-[40%]">
+            <div className="col1 w-[40%] px-3">
               <ProductZoom />
+            </div>
+
+            <div className="col2 w-[60%] py-8 px-8 pr-16 productContent">
+              <ProductDetailsComponent />
             </div>
           </div>
         </DialogContent>
@@ -81,3 +84,4 @@ function App() {
 }
 
 export default App;
+export { MyContext };
