@@ -8,7 +8,6 @@ html {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   overflow-x: hidden;
 }
 
@@ -45,7 +44,7 @@ h6 {
   background: #556f8d;
 }
 ::-webkit-scrollbar-track {
-  background: #fff;
+  background: #b8b8b8;
 }
 
 .container {
@@ -67,6 +66,11 @@ h6 {
 }
 .btn-org:hover {
   background: #274a72 !important;
+}
+
+.btn-lg {
+  font-size: 18px;
+  padding: 10px 20px !important;
 }
 
 .link:hover {
@@ -299,4 +303,8 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .productDetailsModal .MuiDialogContent-root {
   padding: 0px !important;
+}
+
+.cartPanel .MuiPaper-root {
+  width: 400px !important;
 }

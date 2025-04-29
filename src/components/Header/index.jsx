@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import Search from "../Search";
 import Badge from "@mui/material/Badge";
@@ -9,6 +9,7 @@ import { IoMdGitCompare } from "react-icons/io";
 import { FaHeart } from "react-icons/fa";
 import { Tooltip } from "@mui/material";
 import Navigation from "./Navigation";
+import { MyContext } from "../../App";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
@@ -20,6 +21,8 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 }));
 
 const Header = () => {
+  const context = useContext(MyContext);
+
   return (
     <header className="bg-white">
       <div className="top-strip py-2 border-t-[1px] border-gray-300 bg-[#e5e5e5] border-b-[1px]">
@@ -87,7 +90,7 @@ const Header = () => {
                 <Tooltip title="COMPARTIR" placement="top">
                   <IconButton aria-label="cart">
                     <StyledBadge badgeContent={4} color="secondary">
-                      <IoMdGitCompare />
+                      <IoMdGitCompare className="text-[#0a7fec]" />
                     </StyledBadge>
                   </IconButton>
                 </Tooltip>
@@ -96,16 +99,19 @@ const Header = () => {
                 <Tooltip title="ME GUSTA" placement="top">
                   <IconButton aria-label="cart">
                     <StyledBadge badgeContent={4} color="secondary">
-                      <FaHeart />
+                      <FaHeart className="text-[#e73821]" />
                     </StyledBadge>
                   </IconButton>
                 </Tooltip>
               </li>
               <li>
                 <Tooltip title="CARRITO" placement="top">
-                  <IconButton aria-label="cart">
+                  <IconButton
+                    aria-label="cart"
+                    onClick={() => context.setOpenCartPanel(true)}
+                  >
                     <StyledBadge badgeContent={4} color="secondary">
-                      <FaShoppingCart />
+                      <FaShoppingCart className="text-[#274a72]" />
                     </StyledBadge>
                   </IconButton>
                 </Tooltip>
