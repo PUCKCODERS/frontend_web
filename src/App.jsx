@@ -17,9 +17,6 @@ import ProductDetailsComponent from "./components/ProductDetails";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 
-import Drawer from "@mui/material/Drawer";
-import CartPanel from "./components/CartPanel";
-
 const MyContext = createContext();
 
 function App() {
@@ -40,6 +37,8 @@ function App() {
   const values = {
     setOpenProductDetailsModal,
     setOpenCartPanel,
+    toggleCartPanel,
+    openCartPanel,
   };
 
   return (
@@ -93,26 +92,6 @@ function App() {
           </div>
         </DialogContent>
       </Dialog>
-
-      {/* PANEL DEL CARRITO */}
-      <Drawer
-        open={openCartPanel}
-        onClose={toggleCartPanel(false)}
-        anchor={"right"}
-        className="cartPanel"
-      >
-        <div className="flex items-center justify-between py-3 px-4 gap-3 border-b border-[#d1d1d1]">
-          <h4 className="text-[#274a72] font-[bold] font-bold">
-            CARRITO DE COMPRA (1)
-          </h4>
-          <IoCloseSharp
-            className="!w-[20px] !h-[20px] !min-w-[20px] cursor-pointer !rounded-full !text-[#fff] !absolute top-[15px] right-[15px] !bg-[#274a72] !shadow-[0px_0px_0px_3px_#7994b1]"
-            onClick={toggleCartPanel(false)}
-          />
-        </div>
-
-        <CartPanel />
-      </Drawer>
     </>
   );
 }

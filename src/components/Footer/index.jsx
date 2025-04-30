@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FcShipped } from "react-icons/fc";
 import { FaCcVisa } from "react-icons/fa6";
 import { GiLaptop } from "react-icons/gi";
@@ -16,7 +16,14 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { AiFillTikTok } from "react-icons/ai";
 
+import { IoCloseSharp } from "react-icons/io5";
+import Drawer from "@mui/material/Drawer";
+import CartPanel from "../CartPanel";
+import { MyContext } from "../../App";
+
 const Footer = () => {
+  const context = useContext(MyContext);
+
   return (
     <>
       <footer className="py-6 bg-[#eef0f3] border border-[#fff] shadow-[0_-4px_6px_-1px_#b1cdee,0_4px_6px_-1px_#b1cdee]">
@@ -317,6 +324,26 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      {/* PANEL DEL CARRITO */}
+      <Drawer
+        open={context.openCartPanel}
+        onClose={context.toggleCartPanel(false)}
+        anchor={"right"}
+        className="cartPanel"
+      >
+        <div className="flex items-center justify-between py-3 px-4 gap-3 border-b border-[#d1d1d1] overflow-hidden">
+          <h4 className="text-[#274a72] font-[bold] font-bold">
+            CARRITO DE COMPRA (1)
+          </h4>
+          <IoCloseSharp
+            className="!w-[20px] !h-[20px] !min-w-[20px] cursor-pointer !rounded-full !text-[#fff] !absolute top-[15px] right-[15px] !bg-[#274a72] !shadow-[0px_0px_0px_3px_#7994b1]"
+            onClick={context.toggleCartPanel(false)}
+          />
+        </div>
+
+        <CartPanel />
+      </Drawer>
     </>
   );
 };
