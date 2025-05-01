@@ -9,6 +9,7 @@ const AdsBannerSlider = (props) => {
   return (
     <div className="py-5 w-full">
       <Swiper
+        loop={true}
         slidesPerView={props.items}
         spaceBetween={12}
         navigation={true}

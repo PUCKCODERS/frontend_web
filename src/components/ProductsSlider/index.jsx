@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -15,7 +14,7 @@ const ProductsSlider = (props) => {
         spaceBetween={12}
         navigation={true}
         modules={[Navigation]}
-        className="mySwiper"
+        className="sliderHome"
       >
         <SwiperSlide>
           <ProductItem />

@@ -129,6 +129,7 @@ const Home = () => {
         <div className="container">
           <h2 className="text-[20px] font-[600] mb-4">ARTICULOS DE INTERES</h2>
           <Swiper
+            loop={true}
             slidesPerView={4}
             spaceBetween={30}
             navigation={true}
