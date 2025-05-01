@@ -28,7 +28,7 @@ const HomeBannerV2 = () => {
     >
       <SwiperSlide>
         <div className="item w-full rounded-md overflow-hidden relative">
-          <img src="https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/490572777_122107028150827692_1912713471712216049_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=f727a1&_nc_ohc=IJkA6wH-tp4Q7kNvwE0BUMX&_nc_oc=Adl4SHyjz6zPbUEl4ufYE-ifbO0CyyihVcJ8mgo65o3KP83Q17G1eaYRuQSq1u1ZCis&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=TzDR8DxContEix3PiMBsfQ&oh=00_AfGk6HKTg1dPJxQrhiyJrmi8-AGVWTkcjt6FYEWvVfvbvg&oe=67FF755B" />
+          <img src="https://valminortv.com/wp-content/uploads/2024/09/2024-09-26-maquina-coser-portada.jpg" />
 
           <div
             className="info absolute top-0 -right-[100%] opacity-0 w-[50%] h-[100%] z-50 p-8 text-[#556f8d]
@@ -56,7 +56,7 @@ const HomeBannerV2 = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="item w-full rounded-md overflow-hidden relative">
-          <img src="https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/490572777_122107028150827692_1912713471712216049_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=f727a1&_nc_ohc=IJkA6wH-tp4Q7kNvwE0BUMX&_nc_oc=Adl4SHyjz6zPbUEl4ufYE-ifbO0CyyihVcJ8mgo65o3KP83Q17G1eaYRuQSq1u1ZCis&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=TzDR8DxContEix3PiMBsfQ&oh=00_AfGk6HKTg1dPJxQrhiyJrmi8-AGVWTkcjt6FYEWvVfvbvg&oe=67FF755B" />
+          <img src="https://valminortv.com/wp-content/uploads/2024/09/2024-09-26-maquina-coser-portada.jpg" />
 
           <div
             className="info absolute top-0 -right-[100%] opacity-0 w-[50%] h-[100%] z-50 p-8 text-[#556f8d]

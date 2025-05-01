@@ -6,7 +6,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 const BlogItem = () => {
   return (
     <div className="blogItem group">
-      <div className="imgWrapper w-full overflow-hidden rounded-md cursor-pointer relative">
+      <div className="imgWrapper w-full overflow-hidden rounded-md border-2 border-[#274a72] cursor-pointer relative">
         <img
           src="https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2019/02/Que-es-un-blog.png"
           className="w-full transition-all group-hover:scale-105 group-hover:rotate-0"

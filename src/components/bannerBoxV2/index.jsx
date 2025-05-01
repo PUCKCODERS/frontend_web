@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const BannerBoxV2 = (props) => {
   return (
-    <div className="bannerBoxV2 w-full overflow-hidden rounded-md group relative">
+    <div className="bannerBoxV2 w-full overflow-hidden rounded-md group relative shadow-md">
       <img
         src={props.image}
-        className="w-full transition-all duration-150 group-hover:scale-105"
+        className="w-full transition-all duration-150 group-hover:scale-105 "
       />
       <div
         className={`info absolute p-5 top-0 ${

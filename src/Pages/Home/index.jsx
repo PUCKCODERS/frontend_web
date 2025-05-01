@@ -29,20 +29,20 @@ const Home = () => {
       <HomeSlider />
       <section className="py-6">
         <div className="container flex gap-5">
-          <div className="part1 w-[65%]">
+          <div className="part1 w-[60%] shadow-md rounded-md">
             <HomeBannerV2 />
           </div>
-          <div className="part2 w-[35%] flex items-center gap-5 justify-between flex-col">
+          <div className="part2 w-[40%] flex items-center gap-5 justify-between flex-col">
             <BannerBoxV2
               info="left"
               image={
-                "https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/490914340_122107052882827692_4934114322789984951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=f727a1&_nc_ohc=rFL2MCpoA5kQ7kNvwGm3UF3&_nc_oc=AdnfHlZvHVETzbdulmw7WmzdquWhncEWzdMkZqb0ZAmumdU5UWsbjWXWfzupuhNPCSA&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=PAD2xicGI9tGIgc01u--Pg&oh=00_AfGQbaKCAK80ia9Px_L9j9PGjbF4fpzZjMjGM_7SMVrfIg&oe=67FF7F31"
+                "https://www.superprof.mx/blog/wp-content/uploads/2018/01/maquina-coser.jpg"
               }
             />
             <BannerBoxV2
               info="right"
               image={
-                "https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/490914340_122107052882827692_4934114322789984951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=f727a1&_nc_ohc=rFL2MCpoA5kQ7kNvwGm3UF3&_nc_oc=AdnfHlZvHVETzbdulmw7WmzdquWhncEWzdMkZqb0ZAmumdU5UWsbjWXWfzupuhNPCSA&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=PAD2xicGI9tGIgc01u--Pg&oh=00_AfGQbaKCAK80ia9Px_L9j9PGjbF4fpzZjMjGM_7SMVrfIg&oe=67FF7F31"
+                "https://www.superprof.mx/blog/wp-content/uploads/2018/01/maquina-coser.jpg"
               }
             />
           </div>
@@ -125,7 +125,7 @@ const Home = () => {
           <AdsBannerSlider items={3} />
         </div>
       </section>
-      <section className="py-5 pb-8 pt-0 bg-white blogSection">
+      <section className="py-5 pb-8 pt-0 bg-white blogSection ">
         <div className="container">
           <h2 className="text-[20px] font-[600] mb-4">ARTICULOS DE INTERES</h2>
           <Swiper

@@ -63,7 +63,7 @@ const Header = () => {
         <div className="container flex items-center justify-between">
           <div className="col1 w-[25%]">
             <Link to={"/"}>
-              <img src="https://scontent.fuio22-1.fna.fbcdn.net/v/t39.30808-6/489456226_4174754722812172_2853351155346051607_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeH2mY7wy2fDUjGvHGn3KM4r8LBbFoH-zO_wsFsWgf7M79mf33uBhBY2hFSJlDsajLi6HlBoct386r4zufDM1cj-&_nc_ohc=JjjGIeXg6zkQ7kNvwHKlvuC&_nc_oc=Adn3mnb1FgchcW4etVM132Ga5kgbhLd5Dda0IcRZLbv814BzG4bs8ElXNi8CQpSDmvM&_nc_zt=23&_nc_ht=scontent.fuio22-1.fna&_nc_gid=nG3QFpvsb0WVw6vhCrEy1w&oh=00_AfEIRO0sCyZkjlRgE4DHVK3bRzzW5mRS6N6tA0PdxzWpVA&oe=68041FA5" />
+              <img src="https://maquitexperu.com/wp-content/uploads/2021/04/maquitex.png" />
             </Link>
           </div>
           <div className="col2 w-[45%]">

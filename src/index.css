@@ -252,6 +252,10 @@ footer form input::placeholder {
 .shadow-lg {
   box-shadow: 7px 7px 7px #274a72;
 }
+
+.shadow-sm {
+  box-shadow: 0 0 0 2px #274a72;
+}
 .zoomProductSliderThumbs .swiper-wrapper {
   padding-top: 1px !important;
 }
