@@ -317,3 +317,18 @@ input[type="number"]::-webkit-outer-spin-button {
 #size-menu .MuiButtonBase-root {
   font-size: 12px !important;
 }
+
+.otpBox input {
+  border: 1px solid #274a72 !important;
+  border-radius: 4px !important;
+}
+
+.otpBox input:focus {
+  border: 1px solid #274a72 !important;
+  box-shadow: 0 0 0 2px #274a72 !important;
+}
+
+.otpPage .container {
+  height: 90vh !important;
+  display: flex !important;
+}

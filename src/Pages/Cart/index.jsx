@@ -16,7 +16,12 @@ const CartPage = () => {
                 PRODUCTOS EN TU CARRITO
               </p>
             </div>
-            <CartItems />
+            <CartItems size="S" qty={1} />
+            <CartItems size="S" qty={1} />
+            <CartItems size="S" qty={1} />
+            <CartItems size="S" qty={1} />
+            <CartItems size="S" qty={1} />
+            <CartItems size="S" qty={1} />
           </div>
         </div>
 
