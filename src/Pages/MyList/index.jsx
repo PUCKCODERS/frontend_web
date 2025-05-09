@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@mui/material/Button";
 import { FaCashRegister } from "react-icons/fa6";
-import MyListItems from "./MyListItems";
+import MyListItems from "./myListItems";
 import AccountSidebar from "../../components/AccountSidebar";
 
 const MyList = () => {
