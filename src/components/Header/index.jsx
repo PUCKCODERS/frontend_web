@@ -11,8 +11,7 @@ import { Button, Tooltip } from "@mui/material";
 import Navigation from "./Navigation";
 import { MyContext } from "../../App";
 import { FaUser } from "react-icons/fa";
-import { GiShoppingCart } from "react-icons/gi";
-import { RiLogoutBoxRFill } from "react-icons/ri";
+import { GiExitDoor } from "react-icons/gi";
 
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
@@ -164,17 +163,39 @@ const Header = () => {
                     transformOrigin={{ horizontal: "right", vertical: "top" }}
                     anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
                   >
-                    <MenuItem onClick={handleClose}>
-                      <FaUser /> MI CUENTA
-                    </MenuItem>
-                    <MenuItem onClick={handleClose}>
-                      <GiShoppingCart /> PEDIDOS
-                    </MenuItem>
-                    <MenuItem onClick={handleClose}>
-                      <FaHeart /> MI LISTA
-                    </MenuItem>
-                    <MenuItem onClick={handleClose}>
-                      <RiLogoutBoxRFill /> CERRAR SESIÓN
+                    <Link to="/my-account" className="w-full block">
+                      <MenuItem
+                        onClick={handleClose}
+                        className="flex gap-2 !py-2 !text-[#274a72] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none"
+                      >
+                        <FaUser className="text-[20px]" />{" "}
+                        <span className="text-[14px]">MI CUENTA</span>
+                      </MenuItem>
+                    </Link>
+                    <Link to="/my-orders" className="w-full block">
+                      <MenuItem
+                        onClick={handleClose}
+                        className="flex gap-2 !py-2 !text-[#274a72] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none"
+                      >
+                        <FaShoppingCart className="text-[20px]" />{" "}
+                        <span className="text-[14px]">PEDIDOS</span>
+                      </MenuItem>
+                    </Link>
+                    <Link to="/my-list" className="w-full block">
+                      <MenuItem
+                        onClick={handleClose}
+                        className="flex gap-2 !py-2 !text-[#274a72] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none"
+                      >
+                        <FaHeart className="text-[20px]" />
+                        <span className="text-[14px]">MI LISTA</span>
+                      </MenuItem>
+                    </Link>
+                    <MenuItem
+                      onClick={handleClose}
+                      className="flex gap-2 !py-2 !text-[#274a72] !font-[bold] hover:!text-[white] hover:!bg-[#274a72] w-full !text-left !justify-start !rounded-none"
+                    >
+                      <GiExitDoor className="text-[20px]" />
+                      <span className="text-[14px]">CERRAR SESIÓN</span>
                     </MenuItem>
                   </Menu>
                 </>
