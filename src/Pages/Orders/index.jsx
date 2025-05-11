@@ -28,7 +28,7 @@ const Orders = () => {
             <div className="py-5 px-3 border-b border-[#d1d1d1] ">
               <h2 className="font-[bold] font-bold">MIS PEDIDOS</h2>
               <p className="mt-0 mb-0 text-[#000]">
-                ESTOS SON <span className="font-bold text-[#274a72]"> 2 </span>{" "}
+                ESTOS SON <span className="font-bold text-[#274a72]"> 6 </span>{" "}
                 PRODUCTOS DE TU PEDIDO
               </p>
 
